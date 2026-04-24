@@ -1,14 +1,6 @@
 (function ($) {
     "use strict";
 
-	/*----------------------------------------
-	   GitHub Pages Mobile Logo Path Fix
-	------------------------------------------*/
-	var $mobileLogo = $('.logo-mobile img[src^="/assets/images/logo/_Nord - Side Name (1).png"]');
-	if ($mobileLogo.length) {
-		$mobileLogo.attr('src', 'assets/images/logo/_Nord - Side Name (1).png');
-	}
-    
     /*----------------------------------------
 	   Sticky Menu Activation
 	------------------------------------------*/
