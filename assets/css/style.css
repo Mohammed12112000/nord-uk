@@ -16660,6 +16660,7 @@ ul li {
 #historic-section .history-content p {
   display: block;
   overflow: visible;
+  text-align: justify;
 }
 
 /* Company Snapshot Section */
@@ -17749,6 +17750,10 @@ ul li {
   padding: 0;
 }
 
+.page-blog-details .tc {
+  margin-top: 2.75rem;
+}
+
 .page-blog-details .cs-badge,
 .page-blog-details .tc-badge {
   display: inline-flex;
@@ -18283,6 +18288,7 @@ ul li {
   padding: 1.5rem 1.35rem;
   position: relative;
   overflow: hidden;
+  min-height: 320px;
   box-shadow: inset 0 0 0 1px rgba(33, 55, 127, 0.04);
   transition: border-color 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
 }
@@ -18730,6 +18736,12 @@ ul li {
 
 .footer-v2-contact--static {
   cursor: default;
+  align-items: flex-start;
+  line-height: 1.65;
+}
+
+.footer-v2-contact--static .footer-v2-contact-icon {
+  margin-top: 2px;
 }
 
 .footer-v2-contact:hover {
