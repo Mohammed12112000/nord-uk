@@ -18563,12 +18563,20 @@ ul li {
 
 .page-index .footer-v2 {
   margin-top: auto;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   border-left: none;
   border-right: none;
   border-radius: 0;
+}
+
+@media (max-width: 991px) {
+  .page-index .footer-v2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .footer-v2::before {
