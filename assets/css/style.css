@@ -17264,6 +17264,12 @@ ul li {
   line-height: 1.5;
 }
 
+.page-index .company-snapshot-v2 .co-stat--reach .co-stat-value {
+  font-size: clamp(15px, 2.6vw, 20px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
 .page-index .company-snapshot-v2 .co-info-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -23011,7 +23017,7 @@ ul li {
 ====================*/
 .about-banner-image {
   position: relative;
-  background-image: url(../images/about/large-about.jpg);
+  background-image: url(../images/about/large-about-3.jpeg);
   padding: 500px 0px;
   text-align: center;
   background-attachment: fixed;
